@@ -11,7 +11,7 @@ import com.google.gson.JsonParser;
 public class OpapService {
 
 	public static void main(String[] args) throws Exception {
-		int drawno = 622666;
+		int drawno = 622666;//need to change this so it represents the day that the user run's it 
 		int sizeDraw = lastDrawByNo() - drawno;
 		ArrayList<int[]> arl = new ArrayList<int[]>();
 
